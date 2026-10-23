@@ -1,0 +1,42 @@
+{
+  "name": "skeleton-watch",
+  "author": "Nathan Marchant",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Skeleton Watch",
+    "uuid": "f440e430-b37c-499e-a18a-8e1ef203cdba",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "gabbro",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "Finish",
+      "Hands",
+      "Motion"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "ART",
+          "file": "data/art.bin"
+        }
+      ]
+    }
+  }
+}
