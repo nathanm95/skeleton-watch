@@ -133,6 +133,13 @@ films three seconds of the Black finish ticking.
 | `banner_720x320.png` | Store header |
 | `description.md` | Short and full store text |
 
+`python3 tools/showcase_clips.py` renders the Reddit / profile card's clips
+(the movement ticking through six finish and hand combinations per watch,
+opening on blued hands) and a title-only card into
+`~/Projects/pebble/showcase/recordings/skeleton-watch/`; then
+`build_showcase.py skeleton-watch` in the showcase folder makes
+`out/skeleton-watch.gif` (1440x640), `.mp4` and `_720.gif`.
+
 ## Publishing
 
 Not published yet. The first release:
